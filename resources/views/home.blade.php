@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                        <a href="{{ route('payment') }}" class="btn btn-outline-success">Checkout Now</a>
                 </div>
             </div>
         </div>
